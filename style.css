@@ -1,10 +1,17 @@
 *{
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
 }
-body{
-    background-image: url(images/bg-pattern-bottom.svg);
-    background-image: url(images/bg-pattern-top.svg);
+.bg-img-bottom{
+    position: absolute;
+    bottom: -600px;
+    right: -150px;
+}
+.bg-img-top{
+    position: absolute;
+    top: -500px;
+    left: -200px;
 }
 .card{
     height: 400px;
@@ -18,13 +25,16 @@ body{
     top: 50%;
     left: 50%;
     overflow: hidden;
+    /* display: none; */
 }
 .cardPattern{
     height: 145px;
     width: 3000px;
-    background-image: url("images/bg-pattern-card.svg");
 }
-.card img{
+.pattern{
+    height: 145px;
+}
+.userImage{
     border-radius: 50%;
     border: 5px solid white;
     position: absolute;
