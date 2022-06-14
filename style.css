@@ -22,7 +22,7 @@ body{
 .cardPattern{
     height: 145px;
     width: 3000px;
-    background-image: url(images/bg-pattern-card.svg);
+    background-image: url("images/bg-pattern-card.svg");
 }
 .card img{
     border-radius: 50%;
