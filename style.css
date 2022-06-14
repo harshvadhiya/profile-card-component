@@ -1,0 +1,93 @@
+*{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg);
+}
+.card{
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 5%;
+    position: absolute;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+.cardPattern{
+    height: 145px;
+    width: 3000px;
+    background-image: url(/images/bg-pattern-card.svg);
+}
+.card img{
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 36%;
+    left: 50%;
+}
+.userName{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    position: absolute;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    margin-right: -50%;
+    left: 50%;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+.userName .age{
+    color:hsl(0, 0%, 59%);
+    background-color: transparent;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.userName .country{
+    color:hsl(0, 0%, 59%);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: small;
+    padding: 0 32%;
+}
+.counts{
+    position: absolute;
+    bottom: 1%;
+    /* display: inline; */
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    background-color: transparent;
+    border-top: 1px solid hsl(229, 23%, 23%);
+    width: 100%;
+} 
+.counts ul{
+    background-color: transparent;
+    list-style: none;
+    padding-inline-start: 0;
+    text-align: center;
+}
+.counts ul li{
+    padding: 0 5.5%;
+    background-color: transparent;
+    width: 18%;
+    display: inline-block;
+}
+.counts ul li span{
+    background-color: transparent;
+    font-size: small;
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
